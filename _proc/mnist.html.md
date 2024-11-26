@@ -1,4 +1,4 @@
-::: {#cell-0 .cell}
+::: {#cell-0 .cell execution_count=9}
 ``` {.python .cell-code}
 # Run this block and make sure it is successful.
 import numpy as np  # used for handling mathematical operations easier in python
@@ -14,7 +14,7 @@ import seaborn as sn # visualization library for creating more complex graphs
 
 ::: {#cell-2 .cell}
 ``` {.python .cell-code}
-#TODO: Add the split data line here
+(x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
 ```
 :::
 
